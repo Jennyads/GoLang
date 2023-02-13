@@ -1,9 +1,9 @@
-<h4> GoLang </h4>
+<h3> GoLang </h3>
 
 Armazenamento dos códigos desenvolvidos no curso " Go (Golang): Explorando a Linguagem do Google" para melhor estudo e entendimento da linguagem.
 
 
-<h5> Concorrência vs Paralelismo </h5>
+<h4> Concorrência vs Paralelismo </h4>
 
 Go é uma linguagem concorrente (tem um único processador, escalona as tarefas). 
 
