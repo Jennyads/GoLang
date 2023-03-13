@@ -8,7 +8,7 @@ import (
 
 func encaminhar(origem <-chan string, destino chan string) {
 	for {
-		destino <- <-origem
+		destino <- <-origem //origem é somente leitura, assim passa(envia) para o canal de destino
 	}
 }
 
