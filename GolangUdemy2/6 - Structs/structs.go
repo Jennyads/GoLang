@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//struct: coleção de campos
+
 type usuario struct {
 	nome     string
 	idade    uint8

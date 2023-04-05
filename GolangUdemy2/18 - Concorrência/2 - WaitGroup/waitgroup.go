@@ -31,7 +31,7 @@ func main() {
 		waitGroup.Done() // -1
 	}()
 
-	waitGroup.Wait() // 0
+	waitGroup.Wait() // 0  espera a contagem chegar a zero, ai pode parar de ser executado
 }
 
 func escrever(texto string) {

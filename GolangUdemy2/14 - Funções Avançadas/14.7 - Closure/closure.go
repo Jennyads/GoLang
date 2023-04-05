@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//função closure tem uma espécie de memória, uma lembrança da onde ela veio
 func closure() func() {
 	texto := "Dentro da função closure"
 

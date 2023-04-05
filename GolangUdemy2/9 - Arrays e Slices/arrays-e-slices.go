@@ -18,6 +18,7 @@ func main() {
 	array3 := [...]int{1, 2, 3, 4, 5}
 	fmt.Println(array3)
 
+	//slice é uma fatia do array 
 	slice := []int{10, 11, 12, 13, 14, 15, 16, 17}
 	fmt.Println(slice)
 
@@ -32,11 +33,14 @@ func main() {
 
 	// Arrays Internos
 	fmt.Println("----------")
+	//make: função que aloca espaço na memória para determinada finalidade
 	slice3 := make([]float32, 10, 11)
 	fmt.Println(slice3)
 
 	slice3 = append(slice3, 5)
 	slice3 = append(slice3, 6)
+	//quando adiciona mais do que o limite interno, ele cria outro array interno para ser referênciado
+	
 
 	fmt.Println(slice3)
 	fmt.Println(len(slice3)) // length
